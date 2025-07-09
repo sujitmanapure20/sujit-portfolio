@@ -3,6 +3,20 @@ import '../pages/Projects.css';
 
 function Projects() {
   const projects = [
+     {
+  name: "Sarrika`s Divine Solution",
+  tech: ["Java", "Spring Boot", "React.js", "MySQL", "Spring JDBC", "Hibernate", "JWT Auth"],
+  desc: "A full-stack numerology platform offering personalized consultations, user/admin dashboards, course purchases, and secure authentication.",
+  impact: [
+    "Enabled 24/7 access to numerology services",
+    "Streamlined user onboarding and course transactions",
+    "Increased customer engagement through personalized dashboards"
+  ],
+  image: `${process.env.PUBLIC_URL}/Sarrika.png`,
+  demoLink: "https://sarrikas-divine-solution.netlify.app/",
+  codeLink: "#"
+},
+
     {
       name: "Agrochain Management",
       tech: ["Java", "AWT", "Swing", "MySQL", "JDBC"],
